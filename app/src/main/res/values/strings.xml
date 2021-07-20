@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="degrees">%d°</string>
+    <string name="feels_like">Feels like %d°</string>
+    <string name="max_min_temperature">%1$d°/%2$d°</string>
+    <string name="humidity"> %d&#65130;</string>
+    <string name="pressure"> %d mBar</string>
+    <string name="visibility"> %d km</string>
+    <string name="wind"> %1$d m/s</string>
+    <string name="uv_index_text">UV index</string>
+    <string name="pressure_text">Pressure</string>
+    <string name="dew_point_text">Dew point</string>
+    <string name="visibility_text">Visibility</string>
+    <string name="humidity_text">Humidity</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+
+</resources>
