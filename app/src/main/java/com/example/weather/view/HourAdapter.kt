@@ -11,7 +11,6 @@ import com.example.weather.model.HourlyWeather
 import com.example.weather.utils.DateUtils
 import com.example.weather.utils.WeatherIconUtils
 
-//Adapter for recyclerView to show the list of hourly weather for next 12 hours
 class HourAdapter : RecyclerView.Adapter<HourAdapter.HourViewHolder>() {
 
     private val list = mutableListOf<HourlyWeather>()

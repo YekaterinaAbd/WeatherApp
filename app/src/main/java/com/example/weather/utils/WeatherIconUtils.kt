@@ -3,10 +3,8 @@ package com.example.weather.utils
 import com.example.weather.R
 import com.example.weather.model.Weather
 
-//Singleton to get weather icons from the response
 object WeatherIconUtils {
 
-    //Weather codes first numbers from the API
     private const val thunderstormCode = "11"
     private const val drizzleCode = "09"
     private const val rainCode = "10"
@@ -24,7 +22,6 @@ object WeatherIconUtils {
     private const val clearDayImage = R.drawable.ic_day
     private const val clearNightImage = R.drawable.ic_night
 
-    //Function to set custom icons for the weather provided
     fun getWeatherIcon(weather: Weather): Int {
         when (weather.icon.subSequence(0, 2)) {
             thunderstormCode -> return thunderstormImage

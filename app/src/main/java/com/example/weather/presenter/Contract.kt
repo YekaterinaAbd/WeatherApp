@@ -3,9 +3,6 @@ package com.example.weather.presenter
 import com.example.weather.model.CurrentWeather
 import com.example.weather.model.FullWeather
 
-//MVP - Model View Presenter
-//Contract - interface with functions which view and presenter must have to communicate
-
 interface Contract {
     interface ContractView {
         fun setFullWeather(weather: FullWeather)
